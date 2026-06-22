@@ -1,0 +1,167 @@
+\section{Especificación del Hormigón}
+\label{sec:especificacion_hormigon}
+
+\subsection{Tipos de exposición y especificación de hormigones}
+
+La norma de referencia para la especificación de hormigones en Chile es la NCh170:2016 \cite{NCh170}, la cual establece los requisitos de durabilidad del hormigón en función de los agentes agresivos a los que está expuesto. Para cada tipo de exposición, la norma exige un grado mínimo de resistencia especificada y, adicionalmente, uno de los siguientes requisitos: dosis mínima de cemento (requisito prescriptivo) o profundidad máxima de penetración de agua según NCh2262 (requisito de comportamiento).
+
+Para las estructuras de la planta se deben considerar los siguientes tipos de exposición:
+
+\begin{itemize}
+    \item Exposición a sulfatos (S): El sector de Salar del Carmen--La Negra se emplaza en el Desierto de Atacama, donde los suelos típicamente contienen sales solubles y sulfatos en concentraciones variables. Se adopta como supuesto de diseño, basado en las características geológicas del suelo desértico salino de la zona, que el terreno presenta una concentración de sulfatos solubles en el suelo entre 0{,}20\% y 2{,}00\% en peso, lo que corresponde a un grado de exposición S2 (exposición severa a sulfatos según la Tabla 5 de NCh170:2016).
+    \item Exposición a agentes que provocan corrosión de armaduras (C): Las estructuras de tratamiento de aguas servidas (CS y reactores) estarán en contacto permanente con aguas residuales que pueden contener cloruros y otras sustancias agresivas. Se adopta un grado de exposición C2-A (hormigón sumergido completamente en agua que contiene cloruros, según la Tabla 8 de NCh170:2016). Para el campamento, las estructuras están en ambiente no agresivo, por lo que se adopta grado C0.
+    \item Baja permeabilidad (P): Dado que el CS y los reactores son estructuras de contención de líquidos en contacto con agua y con posibilidad de ataque químico, se adopta el grado de exposición P2 (penetración de agua $\leq 20$ mm según la Tabla 10 de NCh170:2016), en concordancia con los criterios de fisuración y permeabilidad más restrictivos que establece la norma ACI 350-06 \cite{ACI350} para estructuras de contención de residuos ambientales.
+    \item Exposición a congelación y deshielo (F): No aplica en el sector de La Negra, dado que las temperaturas nocturnas en invierno raramente alcanzan el punto de congelación a nivel del suelo (altitud $\approx 420$ m.s.n.m.) y la humedad relativa es extremadamente baja, condiciones que no generan ciclos de hielo-deshielo en el hormigón endurecido. Se adopta grado F0.
+\end{itemize}
+
+\noindent En base a lo anterior, se especifican los siguientes hormigones para las distintas estructuras del proyecto:
+
+\begin{table}[H]
+  \centering
+  \caption{Especificación de hormigones por estructura según NCh170:2016}
+  \label{tab:hormigones}
+  \begin{tabular}{p{3.5cm} p{2.2cm} p{1.5cm} p{2.2cm} p{2.2cm} p{2.5cm}}
+    \toprule
+    \textbf{Estructura}         & \textbf{Exposición} & \textbf{Grado} & \textbf{Dosis mín. cemento [kg/m³]} & \textbf{a/c máx.} & \textbf{Penet. agua máx. [mm]} \\
+    \midrule
+    Muro CS (cara interior)     & S2, C2-A, P2        & G35            & 360                                  & 0{,}45            & $\leq 20$ \\
+    Losa de fondo CS            & S2, C2-A, P2        & G35            & 360                                  & 0{,}45            & $\leq 20$ \\
+    Reactores biológicos        & S2, C2-A, P2        & G35            & 360                                  & 0{,}45            & $\leq 20$ \\
+    Losa fundación campamento   & S1, C0              & G25            & 320                                  & 0{,}50            & $\leq 40$ \\
+    Hormigón de limpieza        & S0, C0              & G17            & 240                                  & ---               & ---       \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\noindent Cabe precisar que, para la combinación S2 + C2-A, el mínimo normativo según las Tablas 7 y 9 de NCh170:2016 corresponde a G30 con una dosis mínima de 340 kg/m³, gobernado por la exposición a sulfatos S2. No obstante, se adopta G35 con 360 kg/m³ por sobre dicho mínimo, en atención a los criterios más restrictivos de fisuración y permeabilidad que establece ACI 350-06 para estructuras de contención de líquidos, junto con el requisito de penetración de agua $\leq 20$ mm asociado a la clase P2.
+
+\noindent Los parámetros adicionales que deben especificarse para cada hormigón son:
+
+\subsubsection{Clarificador Secundario y Reactores Biológicos -- Grado G35}
+
+\begin{itemize}
+    \item Resistencia característica especificada: $f'_c = 35$ MPa a los 28 días (cilindro $\varnothing$ 150 $\times$ 300 mm).
+    \item Grados de exposición: S2 (sulfatos severos), C2-A (cloruros en agua, inmersión continua), P2 (baja permeabilidad con posibilidad de ataque químico), F0 (sin ciclos hielo-deshielo).
+    \item Dosis mínima de cemento: 360 kg/m$^3$ (por sobre el mínimo de 340 kg/m³ exigido para S2, según criterio ACI 350).
+    \item Razón agua/cemento máxima: $a/c \leq 0{,}45$.
+    \item Permeabilidad: profundidad máxima de penetración de agua según NCh2262 $\leq 20$ mm (clase P2).
+    \item Tipo de cemento: cemento resistente a sulfatos (SR, equivalente a ASTM C150 Tipo V) o cemento Portland con adiciones de microsílice o escoria granulada de alto horno (GGBS), conforme a los requisitos de la Tabla 6 de NCh170:2016 para exposición S2 \cite{NCh170}.
+    \item Tamaño máximo del árido (TMA): 20 mm, condicionado por el recubrimiento de la armadura y la separación entre barras.
+    \item Asentamiento de cono (docilidad): S3 (100--150 mm) para vaciado con bomba; S4 (150--200 mm) si se especifica HAC.
+    \item Aditivos: superplastificante (ASTM C494 Tipo F o G) para mantener trabajabilidad sin incrementar la relación a/c; retardante de fraguado (Tipo B o D) para compensar las condiciones de temperatura en verano.
+    \item Recubrimiento mínimo de armadura: 40 mm para estructuras en contacto con agua residual (exposición C2-A), conforme a NCh170:2016 \cite{NCh170}.
+    \item Control de calidad: control normal, con extracción de muestras cada 50 m$^3$ o por cada jornada de hormigonado (lo que ocurra primero), conforme a NCh170:2016 \cite{NCh170}.
+\end{itemize}
+
+\subsubsection{Losa de Fundación del Campamento -- Grado G25}
+
+\begin{itemize}
+    \item Resistencia característica especificada: $f'_c = 25$ MPa a los 28 días.
+    \item Grados de exposición: S1 (sulfatos moderados, por contacto con suelo desértico), C0 (sin agentes agresivos de corrosión), F0.
+    \item Dosis mínima de cemento: 320 kg/m³.
+    \item Razón agua/cemento máxima: $a/c \leq 0{,}50$.
+    \item Permeabilidad: profundidad máxima de penetración de agua $\leq 40$ mm según NCh2262.
+    \item Tipo de cemento: cemento Portland grado normal (NCh148), con resistencia moderada a sulfatos dado el grado S1.
+    \item TMA: 20 mm.
+    \item Asentamiento de cono: S3 (100--150 mm).
+    \item Recubrimiento mínimo de armadura: 30 mm.
+    \item Control de calidad: control reducido, con extracción mínima de muestras conforme a NCh170:2016.
+\end{itemize}
+
+\subsubsection{Hormigón de Limpieza -- Grado G17}
+
+\begin{itemize}
+    \item Resistencia característica especificada: $f'_c = 17$ MPa a los 28 días.
+    \item Función: proporcionar una superficie plana y limpia como base de trabajo para la losa de fondo del CS y las fundaciones, sin función estructural.
+    \item Dosis mínima de cemento: 240 kg/m³.
+    \item Espesor mínimo: 5 cm, sin armadura.
+    \item Control de calidad: sin requisitos de control estadístico formal; verificación visual de consistencia y nivel.
+\end{itemize}
+
+% ============================================================
+\subsection{Uso de hormigón especial: Hormigón Autocompactante (HAC)}
+
+\subsubsection{Identificación de la oportunidad}
+
+El muro del Clarificador Secundario constituye la oportunidad más clara para el uso de un hormigón especial dentro del proyecto. Las razones que justifican esta elección son las siguientes:
+
+\begin{enumerate}
+    \item Geometría circular y sección delgada: el muro presenta un espesor de solo 35 cm, con una altura de 4{,}5 m, lo que genera una sección relativamente estrecha para la colocación y vibración del hormigón, especialmente al combinar con la curvatura del encofrado.
+    \item Alta densidad de armadura: las estructuras de contención de líquidos diseñadas con criterios ACI 350 típicamente requieren cuantías de acero elevadas para el control de la fisuración, lo que dificulta la penetración del vibrador y aumenta el riesgo de coqueras y segregación en zonas congestionadas.
+    \item Exigencia de impermeabilidad: la calidad de la compactación es crítica para la impermeabilidad del muro. El HAC, al fluir y consolidarse por gravedad sin vibración mecánica, elimina el riesgo de una compactación deficiente y garantiza una mayor homogeneidad y menor porosidad de la matriz.
+    \item Acabado superficial: el HAC produce superficies de mayor calidad, lo que en estructuras en contacto con aguas residuales reduce la rugosidad superficial y con ello la adherencia de biofilm y sedimentos.
+    \item Compatibilidad con encofrado deslizante: la alta fluidez del HAC es compatible con el avance continuo del encofrado deslizante, ya que reduce las presiones laterales de corta duración y facilita el llenado uniforme de la sección circular.
+\end{enumerate}
+
+\subsubsection{Especificación del HAC para el muro del CS}
+
+El HAC para los muros del CS debe cumplir con los requisitos estructurales y de durabilidad indicados en la Tabla~\ref{tab:hormigones} para las estructuras de tratamiento (G35, S2, C2-A, P), con los siguientes parámetros adicionales propios del HAC, conforme a la norma EFNARC \cite{EFNARC} y los criterios del ACI 237R \cite{ACI237}:
+
+\begin{table}[H]
+  \centering
+  \caption{Parámetros de autocompactabilidad para el HAC del muro del CS}
+  \label{tab:hac}
+  \begin{tabular}{lcc}
+    \toprule
+    \textbf{Ensayo}                     & \textbf{Parámetro}         & \textbf{Valor objetivo} \\
+    \midrule
+    Flujo de escurrimiento (Slump Flow) & Diámetro de extensión      & 650--750 mm             \\
+    Tiempo T500                         & Tiempo de flujo            & 2--5 s                  \\
+    Caja en L (L-Box)                   & Relación H2/H1             & $\geq 0{,}80$           \\
+    Embudo V (V-Funnel)                 & Tiempo de flujo            & 6--12 s                 \\
+    Resistencia a la segregación        & Índice de estabilidad visual & Clase 0 o 1            \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\noindent La dosificación del HAC se caracteriza por un mayor contenido de finos (cemento + adiciones minerales $\geq$ 450 kg/m³), un TMA reducido ($\leq$ 16 mm para esta aplicación), mayor contenido de árido fino respecto al convencional, y el uso obligatorio de superplastificante de última generación (policarboxilato, ASTM C494 Tipo F) y agente modificador de viscosidad para garantizar la estabilidad de la mezcla y evitar la segregación dinámica durante el vaciado en encofrado deslizante.
+
+\subsubsection{Análisis de costo: solución tradicional versus HAC}
+
+A continuación se presenta un análisis comparativo de costos entre el hormigón G35 convencional con vibración mecánica y el HAC G35, aplicado al hormigonado del muro del Clarificador Secundario.
+
+\paragraph{Supuestos del análisis}
+
+\begin{itemize}
+    \item Volumen de hormigón del muro del CS: $V = \pi \cdot D_{ext} \cdot e \cdot h = \pi \times 26{,}35 \times 0{,}35 \times 4{,}5 \approx \mathbf{130\,m^3}$ (adoptando $D_{ext}$ como diámetro medio del muro).
+    \item Precio referencial hormigón G35 convencional premezclado (puesto en obra, sector Antofagasta): \$145.000 CLP/m³, valor que considera un sobrecosto logístico de aproximadamente 20\% respecto al precio base de referencia en Santiago (\$121.000 CLP/m³), dado el traslado hasta el sector industrial de La Negra.
+    \item Precio referencial HAC G35 premezclado (puesto en obra): \$185.000 CLP/m³, correspondiente a un sobreprecio de aproximadamente 25--30\% respecto al hormigón convencional equivalente, por concepto de aditivos superplastificantes, modificador de viscosidad y mayor contenido de finos.
+    \item Costo de vibración mecánica (equipo + operación + personal): se estima en \$8.000 CLP/m³ para vibración interna en muros, considerando 2 operarios con vibrador de inmersión y tiempo de vibración de 5--15 s por punto de inserción cada 45 cm.
+    \item Ahorro en mano de obra con HAC: el HAC elimina completamente la etapa de vibración, lo que representa un ahorro estimado en 1{,}5 h-H por m³ para muros de sección delgada y alta densidad de armadura, valorado en \$6.000 CLP/m³ considerando un valor hora-hombre de \$4.000 CLP/h-H.
+    \item Ahorro en reparación de defectos superficiales: el hormigón convencional en muros de sección delgada con alta densidad de armadura presenta una tasa habitual de coqueras y defectos superficiales que requieren reparación, estimada en un 8--15\% de la superficie del muro. El costo de reparación se estima en \$3.500 CLP/m³ de hormigón promedio para muros similares. Con HAC, este costo se reduce a prácticamente cero por la mayor homogeneidad de la compactación.
+    \item No se consideran costos diferenciales de encofrado (ambas soluciones usan el mismo encofrado deslizante).
+\end{itemize}
+
+\paragraph{Tabla comparativa de costos}
+
+\begin{table}[H]
+  \centering
+  \caption{Análisis comparativo de costos: Hormigón G35 convencional vs.\ HAC G35 para muro del CS ($V \approx 130\,\text{m}^3$)}
+  \label{tab:costos}
+  \begin{tabular}{p{5.5cm} r r}
+    \toprule
+    \textbf{Ítem de costo}                          & \textbf{Convencional G35}  & \textbf{HAC G35} \\
+    \midrule
+    Costo hormigón (material + transporte)          & \$145.000 /m³              & \$185.000 /m³    \\
+    Costo vibración mecánica                        & \$8.000 /m³                & \$0 /m³          \\
+    Costo reparación defectos superficiales         & \$3.500 /m³                & \$0 /m³          \\
+    \midrule
+    \textbf{Costo unitario total}                   & \textbf{\$156.500 /m³}     & \textbf{\$185.000 /m³} \\
+    \textbf{Costo total ($\times$ 130 m³)}          & \textbf{\$20.345.000 CLP}  & \textbf{\$24.050.000 CLP} \\
+    \midrule
+    \textbf{Diferencia absoluta}                    & \multicolumn{2}{c}{\$3.705.000 CLP (HAC $\approx$ 18\% más caro)} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\paragraph{Conclusión del análisis}
+
+El análisis de costos directos indica que el HAC representa un sobrecosto neto de aproximadamente \$3.705.000 CLP ($\approx 18\%$) respecto a la solución convencional para el muro de un CS, considerando únicamente los costos de material, vibración y reparación de defectos. No obstante, este análisis no captura la totalidad de los beneficios del HAC, entre los que destacan:
+\begin{itemize}
+    \item Mayor impermeabilidad garantizada: al eliminar el riesgo de una compactación deficiente, el HAC reduce la probabilidad de filtraciones que podrían obligar a costosas reparaciones post-construcción o incluso a la detención de la operación de la planta.
+    \item Reducción de riesgos laborales: la eliminación del vibrado suprime la exposición de los trabajadores al síndrome de vibración mano-brazo, un riesgo ocupacional relevante en faenas de larga duración.
+    \item Menor ruido en obra: el HAC reduce significativamente el ruido generado por los vibradores durante el vaciado.
+    \item Mayor velocidad de vaciado: la fluidez del HAC permite tasas de vaciado más altas, lo que puede acortar los plazos del hormigonado del muro, especialmente en combinación con el encofrado deslizante.
+\end{itemize}
+
+En conclusión, si bien el HAC presenta un sobrecosto directo moderado, se recomienda su uso para el muro del CS dado que la impermeabilidad y la homogeneidad de la compactación son requisitos críticos para esta estructura, y el costo de una falla hidráulica o de una reparación post-construcción superaría ampliamente la diferencia de costo entre ambas alternativas. La decisión final deberá considerar la disponibilidad de proveedores de HAC en la región de Antofagasta y la realización de ensayos de calificación de la mezcla previos al inicio de la faena.

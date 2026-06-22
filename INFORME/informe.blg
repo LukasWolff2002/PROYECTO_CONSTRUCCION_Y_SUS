@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: informe.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: secciones_inf/01intro.aux
+Reallocating 'name_of_file' (item size: 1) to 41 items.
+A level-1 auxiliary file: secciones_inf/02proceso_constructivo.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: secciones_inf/03hormigones.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: secciones_inf/04problemas_calidad.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: secciones_inf/05MMC.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: secciones_inf/06conclu.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: biblio.bib
+Warning--empty author in GuiaMMC
+You've used 9 entries,
+            2118 wiz_defined-function locations,
+            549 strings with 5298 characters,
+and the built_in function-call counts, 1393 in all, are:
+= -- 153
+> -- 9
+< -- 0
++ -- 10
+- -- 0
+* -- 75
+:= -- 208
+add.period$ -- 18
+call.type$ -- 9
+change.case$ -- 29
+chr.to.int$ -- 0
+cite$ -- 10
+duplicate$ -- 72
+empty$ -- 153
+format.name$ -- 0
+if$ -- 315
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 0
+newline$ -- 39
+num.names$ -- 0
+pop$ -- 19
+preamble$ -- 1
+purify$ -- 27
+quote$ -- 0
+skip$ -- 45
+stack$ -- 0
+substring$ -- 54
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 1
+while$ -- 0
+width$ -- 10
+write$ -- 83
+(There was 1 warning)
