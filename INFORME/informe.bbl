@@ -1,46 +1,101 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{ACI350}
-American Concrete Institute, Farmington Hills, MI, USA.
-\newblock {\em {ACI 350-06} Code Requirements for Environmental Engineering
-  Concrete Structures and Commentary}, 2006.
+\bibitem[Ame(2006)]{ACI350}
+\emph{{ACI 350-06} Code Requirements for Environmental Engineering Concrete
+  Structures and Commentary}.
+\newblock American Concrete Institute, Farmington Hills, MI, USA, 2006.
 
-\bibitem{ACI237}
-American Concrete Institute, Farmington Hills, MI, USA.
-\newblock {\em {ACI 237R} Self-Consolidating Concrete}, 2007.
+\bibitem[Ame(2007)]{ACI237}
+\emph{{ACI 237R} Self-Consolidating Concrete}.
+\newblock American Concrete Institute, Farmington Hills, MI, USA, 2007.
 
-\bibitem{ACI360}
-American Concrete Institute, Farmington Hills, MI, USA.
-\newblock {\em {ACI 360R} Guide to Design of Slabs-on-Ground}, 2010.
+\bibitem[Ame(2010{\natexlab{a}})]{ACI305}
+\emph{{ACI 305R} Guide to Hot Weather Concreting}.
+\newblock American Concrete Institute, Farmington Hills, MI, USA,
+  2010{\natexlab{a}}.
 
-\bibitem{ACI546}
-American Concrete Institute, Farmington Hills, MI, USA.
-\newblock {\em {ACI 546R} Guide to Concrete Repair}, 2014.
+\bibitem[Ame(2010{\natexlab{b}})]{ACI360}
+\emph{{ACI 360R} Guide to Design of Slabs-on-Ground}.
+\newblock American Concrete Institute, Farmington Hills, MI, USA,
+  2010{\natexlab{b}}.
 
-\bibitem{ASTMC309}
-ASTM International, West Conshohocken, PA, USA.
-\newblock {\em {ASTM C309} Standard Specification for Liquid Membrane-Forming
-  Compounds for Curing Concrete}, 2019.
+\bibitem[Ame(2014)]{ACI546}
+\emph{{ACI 546R} Guide to Concrete Repair}.
+\newblock American Concrete Institute, Farmington Hills, MI, USA, 2014.
 
-\bibitem{GuiaMMC}
-Gu\'ia {MMC}: Introducci\'on a los m\'etodos modernos de construcci\'on.
+\bibitem[Ame(2016)]{ACI306}
+\emph{{ACI 306R} Guide to Cold Weather Concreting}.
+\newblock American Concrete Institute, Farmington Hills, MI, USA, 2016.
+
+\bibitem[Ame(2019)]{ACI318}
+\emph{{ACI 318} Building Code Requirements for Structural Concrete and
+  Commentary}.
+\newblock American Concrete Institute, Farmington Hills, MI, USA, 2019.
+
+\bibitem[AST(2019{\natexlab{a}})]{ASTMC309}
+\emph{{ASTM C309} Standard Specification for Liquid Membrane-Forming Compounds
+  for Curing Concrete}.
+\newblock ASTM International, West Conshohocken, PA, USA, 2019{\natexlab{a}}.
+
+\bibitem[AST(2019{\natexlab{b}})]{ASTMC494}
+\emph{{ASTM C494} Standard Specification for Chemical Admixtures for Concrete}.
+\newblock ASTM International, West Conshohocken, PA, USA, 2019{\natexlab{b}}.
+
+\bibitem[AST(2022)]{ASTMC150}
+\emph{{ASTM C150} Standard Specification for Portland Cement}.
+\newblock ASTM International, West Conshohocken, PA, USA, 2022.
+
+\bibitem[CTEC()]{GuiaMMC}
+CTEC.
+\newblock Gu\'ia {MMC}: Introducci\'on a los m\'etodos modernos de
+  construcci\'on.
 \newblock Technical report, Centro Tecnol\'ogico para la Innovaci\'on en la
   Construcci\'on (CTEC) y C\'amara Chilena de la Construcci\'on (CChC),
   Santiago, Chile, 2024.
 
-\bibitem{EFNARC}
-EFNARC.
-\newblock {\em The European Guidelines for Self-Compacting Concrete:
-  Specification, Production and Use}, 2005.
+\bibitem[EFN(2005)]{EFNARC}
+\emph{The European Guidelines for Self-Compacting Concrete: Specification,
+  Production and Use}.
+\newblock EFNARC, 2005.
 
-\bibitem{NCh170}
-Instituto Nacional de Normalizaci\'on (INN), Santiago, Chile.
-\newblock {\em {NCh170:2016} Hormig\'on -- Requisitos generales}, 2016.
+\bibitem[Ins(1968)]{NCh148}
+\emph{{NCh148} Cemento -- Terminolog\'ia, clasificaci\'on y especificaciones
+  generales}.
+\newblock Instituto Nacional de Normalizaci\'on (INN), Santiago, Chile, 1968.
 
-\bibitem{ICRI}
-International Concrete Repair Institute, Rosemont, IL, USA.
-\newblock {\em {ICRI 310.2R-2013} Selecting and Specifying Concrete Surface
-  Preparation for Sealers, Coatings, Polymer Overlays, and Concrete Repair},
-  2013.
+\bibitem[Ins(2005)]{NCh2262}
+\emph{{NCh2262} Hormig\'on y mortero -- M\'etodo de ensayo -- Determinaci\'on
+  de la profundidad de penetraci\'on de agua bajo presi\'on}.
+\newblock Instituto Nacional de Normalizaci\'on (INN), Santiago, Chile, 2005.
+
+\bibitem[Ins(2008{\natexlab{a}})]{NCh3113}
+\emph{{NCh3113} Hormig\'on autocompactante -- Determinaci\'on del
+  escurrimiento}.
+\newblock Instituto Nacional de Normalizaci\'on (INN), Santiago, Chile,
+  2008{\natexlab{a}}.
+
+\bibitem[Ins(2008{\natexlab{b}})]{NCh430}
+\emph{{NCh430} Hormig\'on armado -- Requisitos de dise\~no y c\'alculo}.
+\newblock Instituto Nacional de Normalizaci\'on (INN), Santiago, Chile,
+  2008{\natexlab{b}}.
+
+\bibitem[Ins(2009)]{NCh1019}
+\emph{{NCh1019} Hormig\'on -- Determinaci\'on de la docilidad -- M\'etodo del
+  asentamiento del cono de Abrams}.
+\newblock Instituto Nacional de Normalizaci\'on (INN), Santiago, Chile, 2009.
+
+\bibitem[Ins(2016)]{NCh170}
+\emph{{NCh170:2016} Hormig\'on -- Requisitos generales}.
+\newblock Instituto Nacional de Normalizaci\'on (INN), Santiago, Chile, 2016.
+
+\bibitem[Int(2013)]{ICRI}
+\emph{{ICRI 310.2R-2013} Selecting and Specifying Concrete Surface Preparation
+  for Sealers, Coatings, Polymer Overlays, and Concrete Repair}.
+\newblock International Concrete Repair Institute, Rosemont, IL, USA, 2013.
 
 \end{thebibliography}

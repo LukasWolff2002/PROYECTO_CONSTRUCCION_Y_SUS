@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{\numberline {3.1.3}Hormigón de Limpieza -- Grado G17}{8}{subsubsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.2}Uso de hormigón especial: Hormigón Autocompactante (HAC)}{8}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Identificación de la oportunidad}{8}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Especificación del HAC para el muro del CS}{9}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}Especificación del HAC para el muro del CS}{8}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Análisis de costo: solución convencional versus HAC}{9}{subsubsection.3.2.3}%
 \contentsline {section}{\numberline {4}Problemas de calidad}{10}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Nidos de piedras en el muro del CS}{10}{subsection.4.1}%
