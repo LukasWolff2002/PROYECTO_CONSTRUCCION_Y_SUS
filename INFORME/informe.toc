@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{\numberline {3.1.3}Hormigón de Limpieza -- Grado G17}{8}{subsubsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.2}Uso de hormigón especial: Hormigón Autocompactante (HAC)}{8}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Identificación de la oportunidad}{8}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Especificación del HAC para el muro del CS}{8}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}Especificación del HAC para el muro del CS}{9}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Análisis de costo: solución convencional versus HAC}{9}{subsubsection.3.2.3}%
 \contentsline {section}{\numberline {4}Problemas de calidad}{10}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Nidos de piedras en el muro del CS}{10}{subsection.4.1}%
@@ -32,7 +32,7 @@
 \contentsline {paragraph}{Metodología de reparación}{10}{section*.8}%
 \contentsline {subsection}{\numberline {4.2}Fisuración por retracción plástica en las losas}{10}{subsection.4.2}%
 \contentsline {paragraph}{Descripción y causa}{10}{section*.9}%
-\contentsline {paragraph}{Medida preventiva}{10}{section*.10}%
+\contentsline {paragraph}{Medida preventiva}{11}{section*.10}%
 \contentsline {paragraph}{Metodología de reparación}{11}{section*.11}%
 \contentsline {subsection}{\numberline {4.3}Filtración a través de una junta fría en el CS}{11}{subsection.4.3}%
 \contentsline {paragraph}{Descripción y causa}{11}{section*.12}%
